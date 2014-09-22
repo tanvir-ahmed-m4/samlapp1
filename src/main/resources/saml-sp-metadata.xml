@@ -1,0 +1,7 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="sp.local.ru">
+  <md:SPSSODescriptor AuthnRequestsSigned="false" ID="sp.local.ru"
+     protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+       Location="http://sp.local.ru:8080/samlapp1/acs" index="1" isDefault="true"/>
+  </md:SPSSODescriptor>
+</md:EntityDescriptor>
